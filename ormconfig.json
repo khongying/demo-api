@@ -1,0 +1,19 @@
+{
+   "type": "postgres",
+   "host": "178.128.121.123",
+   "port": 30000,
+   "username": "postgres",
+   "password": "admin1234",
+   "database": "service-menagement",
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ]
+}
